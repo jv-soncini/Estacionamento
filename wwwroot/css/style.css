@@ -1,0 +1,53 @@
+form{
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 1px 1px 5px #ccc;
+    padding: 3em 2em;
+    background: white;
+}
+form h2{
+    text-align: center
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 2px #ccc;
+    
+}
+
+
+input{
+    margin-top: 1em;
+}
+.table{
+    margin-top: 2em;
+    box-shadow: 2px 1px 7px #ccc;
+    padding: 0;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center
+}
+.form-control{
+    margin: 9px 0 12px;
+}
+.caixinha {
+    background: url(../img/background2.jpg);
+    height: 94.2vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.double-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.double-field > div {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
